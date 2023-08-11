@@ -1,0 +1,10 @@
+INDEX VERSION 1.131+A:\Alex DS3\PW3\.metadata\.plugins\org.eclipse.jdt.core
+4056460806.index
+2969558690.index
+2169928834.index
+592736297.index
+1487795730.index
+3314884422.index
+1865797976.index
+1997101967.index
+2089442012.index

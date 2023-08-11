@@ -1,0 +1,14 @@
+package br.com.horacio.teste;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// Converções de valores
+		String teste = "37";
+		String testeDois = "20";
+		String testeResultado = teste + testeDois;
+		System.out.println(testeResultado);
+		
+	}
+
+}
