@@ -7,6 +7,8 @@ public class Teste {
 
 	public static void main(String[] args) {
 		
+		//Mamifero
+		
 		Mamifero mamifero = new Mamifero();
 		
 		mamifero.setNome("Kira");
