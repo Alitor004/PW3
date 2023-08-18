@@ -14,10 +14,12 @@ public class TesteCarro {
 		carro.setPeso(Double.parseDouble(JOptionPane.showInputDialog("Digite o peso do carro:")));
 		carro.setQuantidadePortas(Integer.parseInt(JOptionPane.showInputDialog("Digite a quantidade de portas que tem o carro:")));
 		
-		System.out.println("Modelo do carro: " + carro.getModelo() + 
-				"\nPeso do carro: " + carro.getPeso() + "Kg" + 
-				"\nQuantidade de portas do carro: " + carro.getQuantidadePortas()
-				);
+		/*System.out.println("Modelo do carro: " + carro.getModelo() + 
+		*		"\nPeso do carro: " + carro.getPeso() + "Kg" + 
+		*		"\nQuantidade de portas do carro: " + carro.getQuantidadePortas()
+				);*/
+		
+		System.out.println(carro.getMostraAtributos());
 	}
 
 }

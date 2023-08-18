@@ -12,4 +12,11 @@ public class Moto extends Veiculo{
 		this.quantidadeAdesivos = quantidadeAdesivos;
 	}
 	
+	public String getMostraAtributos() {
+		return "Modelo da moto: " + getModelo() + 
+				"\nPeso da moto: " + getPeso() + "Kg" +
+				"\nQuantidade de adesivos da moto: " + getQuantidadeAdesivos();
+		
+	}
+	
 }

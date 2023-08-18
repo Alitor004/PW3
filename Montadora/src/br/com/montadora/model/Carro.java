@@ -11,4 +11,11 @@ public class Carro extends Veiculo{
 	public void setQuantidadePortas(int quantidadePortas) {
 		this.quantidadePortas = quantidadePortas;
 	} 
+	
+	public String getMostraAtributos() {
+		return "Modelo da moto: " + getModelo() + 
+				"\nPeso da moto: " + getPeso() + "Kg" +
+				"\nQuantidade de adesivos da moto: " + getQuantidadePortas();
+		
+	}
 }
