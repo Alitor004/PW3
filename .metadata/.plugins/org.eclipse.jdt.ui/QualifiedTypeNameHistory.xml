@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="br.com.montadora.model.Carro"/>
+    <fullyQualifiedTypeName name="br.com.montadora.model.Moto"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="br.com.construtora.model.Casa"/>
 </qualifiedTypeNameHistroy>
