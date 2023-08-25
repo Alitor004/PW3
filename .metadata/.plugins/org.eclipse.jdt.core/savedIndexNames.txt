@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+INDEX VERSION 1.134+C:\Users\alevi\OneDrive\Área de Trabalho\Estudos\PW3\.metadata\.plugins\org.eclipse.jdt.core
+=======
 INDEX VERSION 1.131+A:\Alex DS3\PW3\.metadata\.plugins\org.eclipse.jdt.core
 2089442012.index
 2169928834.index
@@ -11,5 +14,18 @@ INDEX VERSION 1.131+A:\Alex DS3\PW3\.metadata\.plugins\org.eclipse.jdt.core
 592736297.index
 3463812660.index
 2969558690.index
+<<<<<<< HEAD
 1865797976.index
 2737383322.index
+=======
+>>>>>>> c3549db4c212066c664364c9f084822fabd78627
+2089442012.index
+1865797976.index
+2169928834.index
+1487795730.index
+1997101967.index
+4056460806.index
+3314884422.index
+2969558690.index
+592736297.index
+>>>>>>> 232f317a8a1f298477382d7690dc5fdd48bc5e87

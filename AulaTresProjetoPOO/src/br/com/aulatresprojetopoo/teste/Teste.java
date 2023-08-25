@@ -1,7 +1,5 @@
 package br.com.aulatresprojetopoo.teste;
 
-import javax.swing.JOptionPane;
-
 import br.com.aulatresprojetopoo.model.Aluno;
 import br.com.aulatresprojetopoo.model.Funcionario;
 import br.com.aulatresprojetopoo.model.Professor;

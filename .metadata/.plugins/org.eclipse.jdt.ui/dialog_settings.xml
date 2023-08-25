@@ -22,6 +22,13 @@
 	</section>
 	<section name="JavaElementSearchActions">
 	</section>
+<<<<<<< HEAD
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH" value="500"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT" value="400"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+=======
 	<section name="SourceActionDialog.methods">
 		<item key="VisibilityModifier" value="1"/>
 		<item key="FinalModifier" value="false"/>
@@ -45,5 +52,6 @@
 		<item key="DIALOG_WIDTH" value="546"/>
 		<item key="DIALOG_HEIGHT" value="554"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+>>>>>>> c3549db4c212066c664364c9f084822fabd78627
 	</section>
 </section>
