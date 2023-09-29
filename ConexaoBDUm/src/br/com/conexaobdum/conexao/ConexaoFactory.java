@@ -6,17 +6,11 @@ import java.sql.SQLException;
 
 public class ConexaoFactory {
 
-	public static void main(String[] args){
-		
-
+	public static void main(String[] args) throws SQLException{
 			try 
 			{
 				Class.forName("com.mysql.jdbc.Driver");
-				Connection conexao = null;
-				String url = "jdbc:mysql://localhost/xe?useSSL=false";
-				conexao = DriverManager.getConnection(url, "root", "*123456HAS*");
-				System.out.println("Funcionou");
-			
+				DriverManager.getConnection("jdbc:mysql://localhost/xe?useSSL=false", "root", "*123456HAS*");			
 			} catch (ClassNotFoundException e) {
 				throw new SQLException(e.getMessage());
 			}
