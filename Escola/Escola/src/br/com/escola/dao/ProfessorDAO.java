@@ -2,7 +2,9 @@ package br.com.escola.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 import br.com.escola.model.Professor;
 
@@ -88,4 +90,61 @@ public class ProfessorDAO {
 			return e.getMessage();
 		}
 	}
+	
+	
+	//Metodo Update
+	
+	public String modificar(Professor professor) {
+		String sql = "update professor set curso = ? where nome = ?";
+		try {
+			PreparedStatement ps = getCon().prepareStatement(sql);
+			ps.setString(1,  professor.getCurso());
+			ps.setString(2,  professor.getNome());
+			if (ps.executeUpdate() > 0) {
+				return "Alterado com sucesso";
+			} else {
+				return "Erro ao modificar";
+			}
+		} catch (SQLException e) {
+			return e.getMessage();
+		}
+	}
+	
+	// Metodo Selecionar
+	
+	public ArrayList<Professor> retornarDados() {
+		String sql = "select * from professor";
+		ArrayList<Professor> retornarProfessor = new ArrayList<Professor>();
+		try {
+			PreparedStatement ps = getCon().prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+			if (rs != null) {
+				while(rs.next()) {
+					Professor professor = new Professor();
+					professor.setNome(rs.getString(1));
+					professor.setCurso(rs.getString(2));
+					professor.setSalario(rs.getDouble(3));
+					retornarProfessor.add(professor);
+				}return retornarProfessor;
+			} else {
+				return null;
+			}
+		} catch (SQLException e) {
+			return null;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

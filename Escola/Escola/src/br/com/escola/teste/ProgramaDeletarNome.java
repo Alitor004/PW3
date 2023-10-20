@@ -6,7 +6,7 @@ import br.com.escola.conexao.Conexao;
 import br.com.escola.dao.ProfessorDAO;
 import br.com.escola.model.Professor;
 
-public class ProgramaAlterar {
+public class ProgramaDeletarNome {
 
 	public static void main(String[] args) {
 		
@@ -15,9 +15,8 @@ public class ProgramaAlterar {
 		Professor professor = new Professor();
 		ProfessorDAO professordao = new ProfessorDAO(con);
 		
-		professor.setCurso("Nutri");
-		professor.setNome("Cleberte");
-		System.out.println(professordao.modificar(professor));
+		professor.setNome("Rafael aleluia");
+		System.out.println(professordao.deletarWhereNome(professor));
 		
 		Conexao.fecharConexao(con);
 

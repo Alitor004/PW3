@@ -13,9 +13,9 @@ public class ProgramaDeletar {
 		Connection con = Conexao.abrirConexao();
 
 		Professor professor = new Professor();
-		ProfessorDAO professordao = new ProfessorDAO(con);////////
+		ProfessorDAO professordao = new ProfessorDAO(con);
 		
-		professor.setCurso("DS aleluia");
+		professor.setCurso("ADM");
 		System.out.println(professordao.deletar(professor));
 		
 		Conexao.fecharConexao(con);

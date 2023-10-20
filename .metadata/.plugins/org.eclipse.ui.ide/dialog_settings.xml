@@ -9,6 +9,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\Alex DS3\PW3"/>
 			<item value="D:\PrimeiroProjeto"/>
 			<item value="A:\Alex DS3\PW3\PrimeiroProjeto"/>
 		</list>
